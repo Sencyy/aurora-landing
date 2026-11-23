@@ -1,0 +1,76 @@
+{
+  "categoria": "Cafés",
+  "ordem": 1,
+  "itens": [
+    {
+      "nome": "Espresso",
+      "descricao": "Blend da casa, torra média, notas de cacau e caramelo.",
+      "imagem": "espresso",
+      "preco": 9,
+      "tags": ["vegano", "sem-gluten"],
+      "alergenos": [],
+      "destaque": false,
+      "disponivel": true
+    },
+    {
+      "nome": "Coado na hora",
+      "descricao": "Método V60 com grão único do mês, servido em 250 ml.",
+      "imagem": "graos",
+      "preco": 16,
+      "tags": ["vegano", "sem-gluten"],
+      "alergenos": [],
+      "destaque": true,
+      "disponivel": true
+    },
+    {
+      "nome": "Cappuccino da casa",
+      "descricao": "Espresso duplo, leite vaporizado e um toque de cacau.",
+      "imagem": "latte",
+      "preco": 16,
+      "tags": ["vegetariano"],
+      "alergenos": ["leite"],
+      "destaque": false,
+      "disponivel": true
+    },
+    {
+      "nome": "Flat white",
+      "descricao": "Ristretto duplo com microespuma de leite.",
+      "imagem": "latte",
+      "preco": 17,
+      "tags": ["vegetariano"],
+      "alergenos": ["leite"],
+      "destaque": true,
+      "disponivel": true
+    },
+    {
+      "nome": "Cold brew",
+      "descricao": "Extração fria de 18 horas, servido com gelo e laranja.",
+      "imagem": "espresso",
+      "preco": 18,
+      "tags": ["vegano", "sem-gluten"],
+      "alergenos": [],
+      "destaque": false,
+      "disponivel": true
+    },
+    {
+      "nome": "Mocha Aurora",
+      "descricao": "Espresso, chocolate 70% e leite cremoso.",
+      "imagem": "latte",
+      "preco": 19,
+      "tags": ["vegetariano"],
+      "alergenos": ["leite", "soja"],
+      "destaque": false,
+      "disponivel": true
+    },
+    {
+      "nome": "Café com leite de aveia",
+      "descricao": "Espresso duplo com bebida vegetal de aveia da casa.",
+      "imagem": "latte",
+      "preco": 17,
+      "tags": ["vegano"],
+      "alergenos": ["aveia"],
+      "destaque": false,
+      "disponivel": true
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "categoria": "Doces",
+  "ordem": 3,
+  "itens": [
+    {
+      "nome": "Bolo de cenoura",
+      "descricao": "Fatia generosa com calda espessa de chocolate 60%.",
+      "imagem": "bolo",
+      "preco": 14,
+      "tags": ["vegetariano"],
+      "alergenos": ["gluten", "leite", "ovo"],
+      "destaque": true,
+      "disponivel": true
+    },
+    {
+      "nome": "Cookie de chocolate",
+      "descricao": "Assado no dia, com flor de sal por cima.",
+      "imagem": "bolo",
+      "preco": 11,
+      "tags": ["vegetariano"],
+      "alergenos": ["gluten", "leite", "ovo"],
+      "destaque": false,
+      "disponivel": true
+    },
+    {
+      "nome": "Bolo de banana e castanhas",
+      "descricao": "Sem leite e sem ovos, com castanha-do-pará e canela.",
+      "imagem": "bolo",
+      "preco": 14,
+      "tags": ["vegano"],
+      "alergenos": ["gluten", "castanhas"],
+      "destaque": false,
+      "disponivel": true
+    },
+    {
+      "nome": "Torta de limão",
+      "descricao": "Creme de limão siciliano e merengue maçaricado.",
+      "imagem": "bolo",
+      "preco": 18,
+      "tags": ["vegetariano"],
+      "alergenos": ["gluten", "leite", "ovo"],
+      "destaque": false,
+      "disponivel": true
+    },
+    {
+      "nome": "Brigadeiro de café",
+      "descricao": "Doce de colher com café coado e chocolate meio amargo.",
+      "imagem": "bolo",
+      "preco": 12,
+      "tags": ["vegetariano", "sem-gluten"],
+      "alergenos": ["leite"],
+      "destaque": false,
+      "disponivel": true
+    }
+  ]
+}

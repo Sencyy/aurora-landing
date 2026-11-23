@@ -1,0 +1,56 @@
+{
+  "categoria": "Bebidas",
+  "ordem": 4,
+  "itens": [
+    {
+      "nome": "Chá de ervas da casa",
+      "descricao": "Infusão de capim-limão, hortelã e camomila. Bule para duas xícaras.",
+      "imagem": "latte",
+      "preco": 14,
+      "tags": ["vegano", "sem-gluten"],
+      "alergenos": [],
+      "destaque": false,
+      "disponivel": true
+    },
+    {
+      "nome": "Limonada suíça",
+      "descricao": "Limão, água e um toque de açúcar mascavo.",
+      "imagem": "latte",
+      "preco": 13,
+      "tags": ["vegano", "sem-gluten"],
+      "alergenos": [],
+      "destaque": false,
+      "disponivel": true
+    },
+    {
+      "nome": "Suco de laranja",
+      "descricao": "Espremido na hora, 300 ml.",
+      "imagem": "latte",
+      "preco": 12,
+      "tags": ["vegano", "sem-gluten"],
+      "alergenos": [],
+      "destaque": false,
+      "disponivel": true
+    },
+    {
+      "nome": "Kombucha artesanal",
+      "descricao": "Fermentado de hibisco, servido gelado.",
+      "imagem": "latte",
+      "preco": 16,
+      "tags": ["vegano", "sem-gluten"],
+      "alergenos": [],
+      "destaque": false,
+      "disponivel": true
+    },
+    {
+      "nome": "Chocolate quente",
+      "descricao": "Chocolate 70% derretido no leite, com creme de baunilha.",
+      "imagem": "latte",
+      "preco": 18,
+      "tags": ["vegetariano"],
+      "alergenos": ["leite"],
+      "destaque": false,
+      "disponivel": true
+    }
+  ]
+}

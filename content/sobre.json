@@ -1,0 +1,24 @@
+{
+  "historia": "A Aurora começou em 2019, numa cozinha pequena em Pinheiros, com uma torra caseira e uma mesa comprida que nunca ficava vazia.",
+  "paragrafos": [
+    "Marina e Théo se conheceram trabalhando em uma padaria e passaram dois anos testando torras na varanda do apartamento. O primeiro saco de grãos veio de um produtor da Serra da Mantiqueira; o segundo, de um vizinho que apareceu para provar e ficou até o fim da tarde.",
+    "Quando a loja abriu, em 2021, a ideia era simples: servir um café honesto, assar pão de fermentação natural todos os dias e deixar o espaço aberto para quem quisesse ficar. Nada de pressa, nada de música alta. Só uma mesa, uma xícara e tempo.",
+    "Hoje a Aurora torra em pequenos lotes, trabalha com produtores de Minas e do Espírito Santo e assa os pães antes do sol nascer. A equipe cresceu, o balcão ganhou marcas de uso e a mesa comprida continua sendo o melhor lugar da casa.",
+    "Se você chegou agora, seja bem-vindo. Se já é de casa, o seu lugar está guardado."
+  ],
+  "citacao": "Café bom é café que dá tempo de conversar.",
+  "valores": [
+    {
+      "titulo": "Torra própria",
+      "texto": "Lotes pequenos, torrados toda semana aqui na loja. Contamos de onde vem cada grão e como ele foi processado."
+    },
+    {
+      "titulo": "Pão de verdade",
+      "texto": "Fermentação natural, farinha selecionada e nenhum atalho. O pão começa na noite anterior e termina antes de abrirmos as portas."
+    },
+    {
+      "titulo": "Bairro primeiro",
+      "texto": "Compramos de produtores próximos, empregamos gente da região e abrimos espaço para quem faz arte, música e conversa boa."
+    }
+  ]
+}

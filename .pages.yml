@@ -1,0 +1,231 @@
+media:
+  input: content/media
+  output: /images
+  rename: safe
+  categories: [image]
+
+content:
+  - name: menu
+    label: Cardápio
+    type: collection
+    path: content/cardapio
+    format: json
+    filename: "{primary}.json"
+    view:
+      primary: categoria
+      sort: ordem
+      order: asc
+    fields:
+      - name: categoria
+        label: Categoria
+        type: string
+        required: true
+      - name: ordem
+        label: Ordem
+        type: number
+        required: true
+        options:
+          min: 1
+      - name: itens
+        label: Itens
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{nome}"
+        fields:
+          - name: nome
+            label: Nome
+            type: string
+            required: true
+          - name: descricao
+            label: Descrição
+            type: text
+            required: true
+          - name: preco
+            label: Preço
+            type: number
+            required: true
+            options:
+              min: 0
+          - name: tags
+            label: Dietas
+            type: select
+            list: true
+            options:
+              values:
+                - name: vegetariano
+                  label: Vegetariano
+                - name: vegano
+                  label: Vegano
+                - name: sem-gluten
+                  label: Sem glúten
+          - name: alergenos
+            label: Alérgenos
+            type: string
+            list: true
+          - name: imagem
+            label: Foto do produto
+            type: image
+          - name: destaque
+            label: Destaque na página inicial
+            type: boolean
+          - name: disponivel
+            label: Disponível
+            type: boolean
+
+  - name: site
+    label: Dados do site
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: nome
+        label: Nome
+        type: string
+        required: true
+      - name: url
+        label: URL pública
+        type: string
+        required: true
+      - name: slogan
+        label: Slogan
+        type: string
+      - name: descricaoCurta
+        label: Descrição curta
+        type: text
+      - name: whatsapp
+        label: WhatsApp
+        type: string
+        required: true
+      - name: whatsappMensagem
+        label: Mensagem padrão do WhatsApp
+        type: text
+      - name: telefone
+        label: Telefone
+        type: string
+      - name: email
+        label: E-mail
+        type: string
+      - name: instagram
+        label: Instagram
+        type: string
+      - name: endereco
+        label: Endereço
+        type: object
+        fields:
+          - name: rua
+            label: Rua
+            type: string
+          - name: numero
+            label: Número
+            type: string
+          - name: complemento
+            label: Complemento
+            type: string
+          - name: bairro
+            label: Bairro
+            type: string
+          - name: cidade
+            label: Cidade
+            type: string
+          - name: uf
+            label: UF
+            type: string
+          - name: cep
+            label: CEP
+            type: string
+          - name: pais
+            label: País
+            type: string
+      - name: geo
+        label: Coordenadas
+        type: object
+        fields:
+          - name: latitude
+            label: Latitude
+            type: number
+          - name: longitude
+            label: Longitude
+            type: number
+      - name: mapa
+        label: Mapa
+        type: object
+        fields:
+          - name: consulta
+            label: Consulta do Google Maps
+            type: string
+          - name: zoom
+            label: Zoom
+            type: number
+      - name: horarios
+        label: Horários
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{rotulo}"
+        fields:
+          - name: rotulo
+            label: Rótulo
+            type: string
+          - name: abre
+            label: Abertura
+            type: string
+          - name: fecha
+            label: Fechamento
+            type: string
+          - name: diasSemana
+            label: Dias da semana
+            type: select
+            list: true
+            options:
+              values: [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday]
+      - name: precoMedio
+        label: Faixa de preço
+        type: string
+      - name: provisorio
+        label: Conteúdo provisório
+        type: boolean
+
+  - name: sobre
+    label: Sobre nós
+    type: file
+    path: content/sobre.json
+    format: json
+    fields:
+      - name: historia
+        label: História
+        type: text
+      - name: paragrafos
+        label: Parágrafos
+        type: text
+        list: true
+      - name: citacao
+        label: Citação
+        type: text
+      - name: valores
+        label: Valores
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{titulo}"
+        fields:
+          - name: titulo
+            label: Título
+            type: string
+          - name: texto
+            label: Texto
+            type: text
+
+settings:
+  content:
+    merge: true
+  commit:
+    identity: app
+    templates:
+      create: "content: add {path}"
+      update: "content: update {path}"
+      delete: "content: remove {path}"
+      rename: "content: rename {oldPath} to {newPath}"

@@ -1,0 +1,76 @@
+{
+  "categoria": "Comidas",
+  "ordem": 2,
+  "itens": [
+    {
+      "nome": "Pão de queijo da casa",
+      "descricao": "Assado de manhã, com queijo canastra e polvilho azedo. Porção de três.",
+      "imagem": "paes",
+      "preco": 12,
+      "tags": ["vegetariano", "sem-gluten"],
+      "alergenos": ["leite", "ovo"],
+      "destaque": true,
+      "disponivel": true
+    },
+    {
+      "nome": "Croissant de manteiga",
+      "descricao": "Fermentação de 48 horas, manteiga francesa e casquinha crocante.",
+      "imagem": "croissant",
+      "preco": 15,
+      "tags": ["vegetariano"],
+      "alergenos": ["gluten", "leite"],
+      "destaque": false,
+      "disponivel": true
+    },
+    {
+      "nome": "Tostada de abacate",
+      "descricao": "Pão de fermentação natural, abacate, ovo pochê e pimenta rosa.",
+      "imagem": "paes",
+      "preco": 32,
+      "tags": ["vegetariano"],
+      "alergenos": ["gluten", "ovo"],
+      "destaque": true,
+      "disponivel": true
+    },
+    {
+      "nome": "Tostada de cogumelos",
+      "descricao": "Mix de cogumelos salteados, creme de castanha e ervas frescas.",
+      "imagem": "paes",
+      "preco": 34,
+      "tags": ["vegano"],
+      "alergenos": ["gluten", "castanhas"],
+      "destaque": false,
+      "disponivel": true
+    },
+    {
+      "nome": "Misto da Aurora",
+      "descricao": "Queijo meia cura e presunto artesanal no pão de brioche.",
+      "imagem": "paes",
+      "preco": 24,
+      "tags": [],
+      "alergenos": ["gluten", "leite"],
+      "destaque": false,
+      "disponivel": true
+    },
+    {
+      "nome": "Sanduíche de frango",
+      "descricao": "Frango desfiado, maionese de ervas e picles no pão australiano.",
+      "imagem": "paes",
+      "preco": 28,
+      "tags": [],
+      "alergenos": ["gluten", "ovo"],
+      "destaque": false,
+      "disponivel": false
+    },
+    {
+      "nome": "Bowl de grãos",
+      "descricao": "Trigo em grão, legumes assados, tahine e sementes tostadas.",
+      "imagem": "graos",
+      "preco": 36,
+      "tags": ["vegano", "sem-gluten"],
+      "alergenos": ["gergelim"],
+      "destaque": false,
+      "disponivel": true
+    }
+  ]
+}

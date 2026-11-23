@@ -1,0 +1,42 @@
+{
+  "ambiente": {
+    "width": 1800,
+    "height": 1200
+  },
+  "barista": {
+    "width": 1800,
+    "height": 1373
+  },
+  "bolo": {
+    "width": 1800,
+    "height": 1324
+  },
+  "cafe-balcao": {
+    "width": 1800,
+    "height": 1200
+  },
+  "croissant": {
+    "width": 1800,
+    "height": 1440
+  },
+  "espresso": {
+    "width": 1800,
+    "height": 1200
+  },
+  "graos": {
+    "width": 1800,
+    "height": 1200
+  },
+  "hero-interior": {
+    "width": 1800,
+    "height": 1234
+  },
+  "latte": {
+    "width": 1800,
+    "height": 2700
+  },
+  "paes": {
+    "width": 1800,
+    "height": 1198
+  }
+}

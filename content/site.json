@@ -1,0 +1,57 @@
+{
+  "nome": "Café Aurora",
+  "url": "https://cafeaurora.com.br",
+  "slogan": "Café de origem, feito com calma",
+  "descricaoCurta": "Uma cafeteria de bairro com torra própria, pães de fermentação natural e uma mesa sempre livre para conversar.",
+  "whatsapp": "5511999999999",
+  "whatsappMensagem": "Olá! Vim pelo site e gostaria de fazer um pedido no Café Aurora.",
+  "telefone": "+55 11 99999-9999",
+  "email": "ola@cafeaurora.com.br",
+  "instagram": "cafeaurora",
+  "endereco": {
+    "rua": "Rua das Laranjeiras",
+    "numero": "128",
+    "complemento": "Loja 2",
+    "bairro": "Pinheiros",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "cep": "05400-000",
+    "pais": "BR"
+  },
+  "geo": {
+    "latitude": -23.5657,
+    "longitude": -46.6934
+  },
+  "mapa": {
+    "consulta": "Rua das Laranjeiras, 128, Pinheiros, São Paulo",
+    "zoom": 16
+  },
+  "horarios": [
+    {
+      "rotulo": "Segunda a sexta",
+      "abre": "07:30",
+      "fecha": "19:00",
+      "diasSemana": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "rotulo": "Sábado",
+      "abre": "08:00",
+      "fecha": "18:00",
+      "diasSemana": ["Saturday"]
+    },
+    {
+      "rotulo": "Domingo",
+      "abre": "08:00",
+      "fecha": "14:00",
+      "diasSemana": ["Sunday"]
+    }
+  ],
+  "precoMedio": "R$ 25–45",
+  "provisorio": true
+}
