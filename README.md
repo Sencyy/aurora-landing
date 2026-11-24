@@ -12,6 +12,16 @@ npm run dev
 O conteúdo editável fica em `content/`. Para regenerar as imagens responsivas
 manualmente, rode `npm run images`.
 
+## Deploy no GitHub Pages
+
+O projeto inclui um workflow em `.github/workflows/deploy-pages.yml`. Ele gera
+o site estático e publica a pasta `out/` a cada push na branch `main`.
+
+No GitHub, vá em **Settings > Pages** e selecione **GitHub Actions** como fonte.
+Depois do próximo push, o site fica disponível em:
+
+`https://sencyy.github.io/aurora-landing/`
+
 ## Deploy no Cloudflare Pages
 
 Configure o projeto com:
